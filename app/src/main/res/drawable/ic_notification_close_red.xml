@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Fond circulaire rouge vif -->
+    <path
+        android:pathData="M12,2 A10,10 0 1,0 12,22 A10,10 0 1,0 12,2 Z"
+        android:fillColor="#DC2626" />
+
+    <!-- Croix blanche X -->
+    <path
+        android:pathData="M8.5,8.5 L15.5,15.5 M15.5,8.5 L8.5,15.5"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

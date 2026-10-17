@@ -1,0 +1,134 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Fond circulaire bleu nuit profond -->
+    <path
+        android:pathData="M256,256 m-240,0 a240,240 0 1,0 480,0 a240,240 0 1,0 -480,0"
+        android:fillColor="#13192B" />
+
+    <!-- Bordure circulaire externe subtile -->
+    <path
+        android:pathData="M256,256 m-236,0 a236,236 0 1,0 472,0 a236,236 0 1,0 -472,0"
+        android:strokeWidth="4"
+        android:strokeColor="#2A3654"
+        android:fillColor="#00000000" />
+
+    <!-- Arc d'ondes latérales gauches (Bleu Cyan) -->
+    <path
+        android:pathData="M 130,210 C 110,235 110,277 130,302"
+        android:strokeWidth="12"
+        android:strokeColor="#0099FF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M 100,190 C 70,225 70,287 100,322"
+        android:strokeWidth="10"
+        android:strokeColor="#00A8FF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Arc d'ondes latérales droites (Orange / Ambre) -->
+    <path
+        android:pathData="M 382,210 C 402,235 402,277 382,302"
+        android:strokeWidth="12"
+        android:strokeColor="#FF6600"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M 412,190 C 442,225 442,287 412,322"
+        android:strokeWidth="10"
+        android:strokeColor="#FF8500"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Ondes concentriques circulaires du bas (Dégradé Bleu à Orange) -->
+    <path
+        android:pathData="M 156,280 C 156,380 356,380 356,280"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="156"
+                android:startY="330"
+                android:endX="356"
+                android:endY="330"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0088FF" />
+                <item android:offset="1.0" android:color="#FF6600" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M 180,300 C 180,395 332,395 332,300"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="180"
+                android:startY="350"
+                android:endX="332"
+                android:endY="350"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00A8FF" />
+                <item android:offset="1.0" android:color="#FF8500" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Feuille de document blanche au centre -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 200,150 L 280,150 L 320,190 L 320,310 C 320,318 314,324 306,324 L 200,324 C 192,324 186,318 186,310 L 186,164 C 186,156 192,150 200,150 Z" />
+
+    <!-- Coin replié du document -->
+    <path
+        android:fillColor="#D0D7DE"
+        android:pathData="M 280,150 L 280,190 L 320,190 Z" />
+
+    <!-- Icône Micro au centre du document -->
+    <!-- Tête du micro -->
+    <path
+        android:fillColor="#13192B"
+        android:pathData="M 256,205 C 246,205 238,213 238,223 L 238,245 C 238,255 246,263 256,263 C 266,263 274,255 274,245 L 274,223 C 274,213 266,205 256,205 Z" />
+    <!-- Arc / Support du micro -->
+    <path
+        android:pathData="M 230,240 C 230,270 282,270 282,240"
+        android:strokeWidth="6"
+        android:strokeColor="#13192B"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Pied du micro -->
+    <path
+        android:pathData="M 256,268 L 256,282 M 244,282 L 268,282"
+        android:strokeWidth="6"
+        android:strokeColor="#13192B"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Titre "Vocal PDF" supérieur (Représentation textuelle / géométrique stylisée) -->
+    <!-- V -->
+    <path android:fillColor="#FFFFFF" android:pathData="M 172,96 L 180,120 L 188,96 L 196,96 L 184,128 L 176,128 L 164,96 Z" />
+    <!-- O -->
+    <path android:fillColor="#FFFFFF" android:pathData="M 200,112 C 200,102 214,102 214,112 C 214,122 200,122 200,112 Z M 192,112 C 192,130 222,130 222,112 C 222,94 192,94 192,112 Z" />
+    <!-- C -->
+    <path android:fillColor="#FFFFFF" android:pathData="M 242,102 C 230,102 230,122 242,122 L 246,122 L 246,128 L 240,128 C 222,128 222,96 240,96 L 246,96 L 246,102 Z" />
+    <!-- A -->
+    <path android:fillColor="#FFFFFF" android:pathData="M 258,96 L 268,128 L 260,128 L 258,120 L 250,120 L 248,128 L 240,128 Z M 254,106 L 252,114 L 256,114 Z" />
+    <!-- L -->
+    <path android:fillColor="#FFFFFF" android:pathData="M 274,96 L 282,96 L 282,122 L 294,122 L 294,128 L 274,128 Z" />
+
+    <!-- P -->
+    <path android:fillColor="#FFFFFF" android:pathData="M 310,96 L 326,96 C 334,96 334,112 326,112 L 318,112 L 318,128 L 310,128 Z M 318,102 L 318,106 L 324,106 C 326,106 326,102 324,102 Z" />
+    <!-- D -->
+    <path android:fillColor="#FFFFFF" android:pathData="M 338,96 L 350,96 C 364,96 364,128 350,128 L 338,128 Z M 346,102 L 346,122 L 350,122 C 356,122 356,102 350,102 Z" />
+    <!-- F -->
+    <path android:fillColor="#FFFFFF" android:pathData="M 368,96 L 390,96 L 390,102 L 376,102 L 376,110 L 388,110 L 388,116 L 376,116 L 376,128 L 368,128 Z" />
+
+</vector>

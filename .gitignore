@@ -1,0 +1,28 @@
+# --- Android Studio / Gradle ---
+*.iml
+.gradle
+.kotlin
+/build
+/app/build
+/buildSrc/build
+/captures
+.externalNativeBuild
+.cxx
+/.idea/
+.DS_Store
+
+# --- Réglages propres à votre ordinateur ---
+local.properties
+
+# --- SECRETS : ne jamais publier ---
+*.jks
+*.keystore
+keystore.properties
+.env
+google-services.json
+
+# --- Voix et moteur : téléchargés automatiquement au premier build (voir buildSrc/) ---
+/app/libs/*.aar
+/app/src/main/assets/voices/
+/app/src/main/assets/espeak-ng-data/
+/app/.voice-downloads/
