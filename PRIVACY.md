@@ -37,7 +37,7 @@ ni les transmettre.
 
 ## Contact
 
-Pour toute question : **[VOTRE ADRESSE E-MAIL DE CONTACT]**
+Pour toute question : **[muzik.czar@gmail.com]**
 
 ---
 
@@ -60,4 +60,4 @@ depending on your Android settings.
 
 **Permissions:** notifications (playback controls) and foreground media playback service (reading with the screen off).
 
-**Contact:** **[YOUR CONTACT EMAIL ADDRESS]**
+**Contact:** **[muzik.czar@gamil.com]**
